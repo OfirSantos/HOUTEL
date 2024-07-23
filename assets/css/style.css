@@ -1,0 +1,124 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
+:root {
+    --verdigris:#44BBA4;
+    --caminepink:#e94f37;
+    --white: #fff;
+    }
+
+body {
+    /* height: 120vh; */
+    background-color: var(--white);
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+    }
+  
+  body {
+    margin: 0; 
+}
+
+
+
+.header {
+    height: max-content;
+}
+.logo {
+    padding: 25px 60px;
+}
+
+.logo__image {
+    max-width: 15vh;
+}
+
+.main{
+    padding: 0 100px;
+    color: var(--white);
+}
+
+.main__container{
+    text-align:center;
+}
+
+.main__title{
+    font-size: large;
+    font-weight: lighter;
+}
+
+.main__title-emphasis{
+    font-family: "Playfair Display", serif;
+    display: block;
+    font-size: 18vh;
+    font-weight: bold;
+}
+
+.main__button{
+    /* color: #44BBA4;
+    border: 1px solid #44BBA4;
+    margin-top: 1rem; */
+    } 
+
+.button {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* .button--positive {
+    background-color: var(--verdigris);
+} */
+
+.button--positive{
+    background-color: var(--verdigris);
+    /* border: 1px solid #44BBA4; */
+    margin-top: 1rem; 
+}
+
+.form {
+    border-radius: 5px;
+    /* background-color: #fff; */
+    margin: 2px 150px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.form__container{
+    width: 100%;
+}
+
+.form__label{
+    display: block;
+    color: var(--old-silver);
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.form__input-text{
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid var(--old-solver);
+    color: var(--black-olive);
+}
+
+.form__input-date{
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid var(--old-solver);
+    color: var(--black-olive);
+}
+
+.form__select {
+    padding: 10px 15px;
+    width: 100%;
+}
+.button--default{
+    background-color: #e94f37;
+    border: 1px solid #e94f37;
+    margin-top: 1rem; 
+}
